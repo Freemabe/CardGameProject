@@ -1,1 +1,6 @@
 Basic UI elements
+Deck Loading System
+Card Creation System
+Prototype Gameboard UI setup
+Discard pile UI
+Scriptable Object for Mech inventory system done
