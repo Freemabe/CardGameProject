@@ -2,9 +2,9 @@ Dynamic deck list system
 User UI for Decklist creation
 Discard pile functionality
 Improved Card functionality
->Inventory/Equip system for Mech
 Artwork
 Sound effects
 Turn System
 Add Comments to scripts for readability
 HoverOver to see detail system
+StatSytem for mech

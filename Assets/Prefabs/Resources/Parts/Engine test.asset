@@ -9,13 +9,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 58a22f7aebcf2ba41801226c29fd1b03, type: 3}
-  m_Name: New Item
+  m_Script: {fileID: 11500000, guid: 32f37e365a8ef464b838ed1b79c452a2, type: 3}
+  m_Name: Engine test
   m_EditorClassIdentifier: 
-  name: PUDGEGUN
-  Icon: {fileID: 21300000, guid: 31b38d4e9c33ece4096601125887d148, type: 3}
-  weight: 1
-  partSlot: 12
-  partType: 0
-  ammoMax: 2
-  damage: 3
+  name: New Items
+  Icon: {fileID: 0}
+  weight: 0
+  partSlot: 6
+  energyRequired: 0
+  outputPower: 0

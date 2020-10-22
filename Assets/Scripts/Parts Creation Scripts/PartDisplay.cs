@@ -5,11 +5,11 @@ using UnityEngine.UI;
 
 public class PartDisplay : MonoBehaviour{
 
-	public Weapons weapon;
+	public Parts part;
 	public Image artworkImage;
 
 
 	void Start(){
-		artworkImage.sprite = weapon.Icon;
+		artworkImage.sprite = part.Icon;
 	}
 }

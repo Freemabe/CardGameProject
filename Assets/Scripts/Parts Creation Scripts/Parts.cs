@@ -9,6 +9,7 @@ public class Parts : ScriptableObject {
 	new public string name = "New Items";
 	public Sprite Icon;
 	public int weight;
+	public PartSlot partSlot;
 }
 
 
