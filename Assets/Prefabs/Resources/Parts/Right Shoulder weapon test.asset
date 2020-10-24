@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Right Shoulder weapon test
   m_EditorClassIdentifier: 
   name: New Items
-  Icon: {fileID: 0}
+  Icon: {fileID: 21300000, guid: 31b38d4e9c33ece4096601125887d148, type: 3}
   weight: 0
   partSlot: 9
   partType: 0

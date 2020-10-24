@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Head test
   m_EditorClassIdentifier: 
   name: Base head
-  Icon: {fileID: 0}
+  Icon: {fileID: 21300000, guid: 37d6c7aa32e3ab74f8ad38170e2dcb2e, type: 3}
   weight: 1
   partSlot: 0
   structurePoints: 2

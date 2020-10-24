@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 7058207027899255319}
   - component: {fileID: 6453942024718497643}
   - component: {fileID: 7495328750952275595}
+  - component: {fileID: 4554149239977002097}
   m_Layer: 5
   m_Name: WeaponPrefab
   m_TagString: Untagged
@@ -89,8 +90,22 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2899d095a53c3b34c878b4d0c6d83422, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  weapon: {fileID: 11400000, guid: 20dae1f9879c35040851cbb87bf361c2, type: 2}
+  part: {fileID: 0}
   artworkImage: {fileID: 3889187852276651064}
+--- !u!114 &4554149239977002097
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3739036011879875969}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5be4ab86441dbbb4d934a25c72f54eeb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  line: {fileID: 0}
+  enable: 0
 --- !u!1 &5155774289308475122
 GameObject:
   m_ObjectHideFlags: 0
@@ -102,7 +117,7 @@ GameObject:
   - component: {fileID: 108877428548687045}
   - component: {fileID: 7238523719148601802}
   - component: {fileID: 3889187852276651064}
-  - component: {fileID: 1272783265}
+  - component: {fileID: 5522949130372785290}
   m_Layer: 5
   m_Name: Icon
   m_TagString: Untagged
@@ -167,7 +182,7 @@ MonoBehaviour:
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
   m_PixelsPerUnitMultiplier: 1
---- !u!114 &1272783265
+--- !u!114 &5522949130372785290
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -209,4 +224,16 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 3889187852276651064}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 4554149239977002097}
+        m_TargetAssemblyTypeName: TargetLine, Assembly-CSharp
+        m_MethodName: OnClick
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2

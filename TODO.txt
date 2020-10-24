@@ -7,4 +7,4 @@ Sound effects
 Turn System
 Add Comments to scripts for readability
 HoverOver to see detail system
-StatSytem for mech
+StatSystem for mech

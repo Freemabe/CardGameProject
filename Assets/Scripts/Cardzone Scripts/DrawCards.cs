@@ -20,7 +20,7 @@ public class DrawCards : MonoBehaviour
 
 	    	Transform enemyCard = deck.transform.GetChild(Random.Range(0,deck.transform.childCount));
 	    	enemyCard.transform.SetParent(Enemy_hand_object.transform, false);
-    	
+    		Debug.Log("I was clicked");
     }
 
 }
