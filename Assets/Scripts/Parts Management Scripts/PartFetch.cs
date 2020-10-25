@@ -1,18 +1,19 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class PartFetch : MonoBehaviour
 {
-	private bool isEmpty = true;
+	public bool isEmpty = true;
 	public PartSlot partSlot1;
 	public GameObject partPool;
-
+	public bool acceptingParts = true;
 
     // Update is called once per frame
     void Update()
     {
-      if (isEmpty)
+      if (isEmpty && acceptingParts)
       {
         foreach(GameObject part in partPool.GetComponent<Partslist>().partlist)
         {
@@ -21,6 +22,7 @@ public class PartFetch : MonoBehaviour
                 part.transform.SetParent(this.transform, false);
                 part.transform.position = this.transform.position;
                 isEmpty = false;
+                acceptingParts = false;
             }
         }
       }

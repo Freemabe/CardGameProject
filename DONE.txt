@@ -5,3 +5,5 @@ Prototype Gameboard UI setup
 Discard pile UI
 Scriptable Object for Mech inventory system done
 Inventory/Equip system for Mech
+Targeting line
+Eject Part mechanics

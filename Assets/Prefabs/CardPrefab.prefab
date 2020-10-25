@@ -481,6 +481,7 @@ GameObject:
   - component: {fileID: 3050779772136759310}
   - component: {fileID: 8785082309758892241}
   - component: {fileID: 2708877153021473031}
+  - component: {fileID: 674945929366653979}
   m_Layer: 5
   m_Name: CardPrefab
   m_TagString: Untagged
@@ -617,6 +618,20 @@ MonoBehaviour:
   manaText: {fileID: 8847447835344271137}
   attackText: {fileID: 8847447836039583778}
   healthText: {fileID: 8847447834511975408}
+--- !u!114 &674945929366653979
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8847447836398059140}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5be4ab86441dbbb4d934a25c72f54eeb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  line: {fileID: 0}
+  enable: 0
 --- !u!1 &8847447836503842036
 GameObject:
   m_ObjectHideFlags: 0
