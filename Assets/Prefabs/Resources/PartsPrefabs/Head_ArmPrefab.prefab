@@ -131,6 +131,7 @@ GameObject:
   - component: {fileID: 4434262808528126101}
   - component: {fileID: 426541728587972073}
   - component: {fileID: 3782639596477223945}
+  - component: {fileID: 1218458324580104004}
   m_Layer: 5
   m_Name: Head_ArmPrefab
   m_TagString: Untagged
@@ -210,3 +211,21 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   part: {fileID: 0}
   artworkImage: {fileID: 7603000707299712698}
+--- !u!114 &1218458324580104004
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8041698388081381123}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: adecf5947e9732b47b3c5fb5b33dc636, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  structure:
+    baseValue: 0
+  armor:
+    baseValue: 0
+  armorToughness:
+    baseValue: 0

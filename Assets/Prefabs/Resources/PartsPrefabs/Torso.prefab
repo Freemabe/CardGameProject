@@ -131,6 +131,7 @@ GameObject:
   - component: {fileID: 2020408884557375120}
   - component: {fileID: 2624231734786628588}
   - component: {fileID: 1584958111087882764}
+  - component: {fileID: 3193667106057754356}
   m_Layer: 5
   m_Name: Torso
   m_TagString: Untagged
@@ -210,3 +211,21 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   part: {fileID: 0}
   artworkImage: {fileID: 5189005999334947007}
+--- !u!114 &3193667106057754356
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5627704826737617158}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: adecf5947e9732b47b3c5fb5b33dc636, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  structure:
+    baseValue: 0
+  armor:
+    baseValue: 0
+  armorToughness:
+    baseValue: 0

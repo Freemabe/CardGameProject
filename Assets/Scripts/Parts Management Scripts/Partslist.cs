@@ -21,7 +21,7 @@ public class Partslist : MonoBehaviour
 
 	GameObject placeholder;
 
-	public void Start()
+	public void Awake()
 	{
 		//load in a an array of parts (currently cheating)
 
@@ -36,6 +36,7 @@ public class Partslist : MonoBehaviour
 				placeholder.GetComponent<PartDisplay>().part = part;
 				placeholder.transform.SetParent(this.transform, false);
 				partlist.Add(placeholder);
+				placeholder.name = part.name;
 			}
 			else if (part.partSlot.ToString() == "Torso")
 	    	{
@@ -45,6 +46,8 @@ public class Partslist : MonoBehaviour
 				placeholder.GetComponent<PartDisplay>().part = part;
 				placeholder.transform.SetParent(this.transform, false);
 				partlist.Add(placeholder);
+				placeholder.name = part.name;
+				placeholder.GetComponent<BodyStats>().basePart = (Body)part;
 			}
 			else if (legList.Contains(part.partSlot.ToString()))
 	    	{
@@ -54,6 +57,8 @@ public class Partslist : MonoBehaviour
 				placeholder.GetComponent<PartDisplay>().part = part;
 				placeholder.transform.SetParent(this.transform, false);
 				partlist.Add(placeholder);
+				placeholder.name = part.name;
+				placeholder.GetComponent<BodyStats>().basePart = (Body)part;
 			}
 			else if (internalList.Contains(part.partSlot.ToString()))
 	    	{
@@ -63,6 +68,7 @@ public class Partslist : MonoBehaviour
 				placeholder.GetComponent<PartDisplay>().part = part;
 				placeholder.transform.SetParent(this.transform, false);
 				partlist.Add(placeholder);
+				placeholder.name = part.name;
 			}
 			else
 	    	{
@@ -72,7 +78,10 @@ public class Partslist : MonoBehaviour
 				placeholder.GetComponent<PartDisplay>().part = part;
 				placeholder.transform.SetParent(this.transform, false);
 				partlist.Add(placeholder);
+				placeholder.name = part.name;
+				placeholder.GetComponent<BodyStats>().basePart = (Body)part;
 			}
+
 
 		}
 	}
@@ -82,5 +91,6 @@ public class Partslist : MonoBehaviour
 		placeholder = Instantiate(armOrHeadPrefab);
 		placeholder.GetComponent<PartDisplay>().part = part;
 		placeholder.transform.SetParent(this.transform, false);
+		placeholder.name = part.name;
 	}
 }

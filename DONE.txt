@@ -7,3 +7,4 @@ Scriptable Object for Mech inventory system done
 Inventory/Equip system for Mech
 Targeting line
 Eject Part mechanics
+Stats for body

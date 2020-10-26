@@ -12,7 +12,7 @@ public class EjectWeapon : MonoBehaviour
 		childNumber = parent.transform.childCount;
 		for (int i =0 ; i <childNumber; i++)
 		{
-			if (parent.transform.GetChild(i).name.Contains("WeaponPrefab"))
+			if (!parent.transform.GetChild(i).name.Contains("Eject Weapon"))
 			{
 				parent.transform.GetChild(i).SetParent(partpool.transform, false);
 				//parent.transform.GetChild(i).position = partpool.transform.position;

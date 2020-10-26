@@ -18,6 +18,7 @@ MonoBehaviour:
   partSlot: 0
   structurePoints: 2
   armorPoints: 3
-  sensorAbility: 4
-  ecmCounter: 5
-  coordination: 6
+  armorToughness: 4
+  sensorAbility: 5
+  ecmCounter: 6
+  coordination: 7

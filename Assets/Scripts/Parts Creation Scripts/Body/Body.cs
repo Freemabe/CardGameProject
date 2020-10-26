@@ -6,4 +6,5 @@ public class Body : Parts
 {
 	public int structurePoints;
 	public int armorPoints;
+	public int armorToughness;
 }

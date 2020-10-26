@@ -131,6 +131,7 @@ GameObject:
   - component: {fileID: 3882287184506449573}
   - component: {fileID: 973459589944611801}
   - component: {fileID: 4330122583222483513}
+  - component: {fileID: 3790115919020265785}
   m_Layer: 5
   m_Name: LegPrefab
   m_TagString: Untagged
@@ -210,3 +211,21 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   part: {fileID: 0}
   artworkImage: {fileID: 7055528713556979850}
+--- !u!114 &3790115919020265785
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7489722799056576819}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: adecf5947e9732b47b3c5fb5b33dc636, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  structure:
+    baseValue: 0
+  armor:
+    baseValue: 0
+  armorToughness:
+    baseValue: 0
