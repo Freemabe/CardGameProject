@@ -41,8 +41,8 @@ public class Draggable : MonoBehaviour, IBeginDragHandler, IDragHandler, IEndDra
 	public void OnDrag(PointerEventData eventData){
 		//Debug.Log("Exited"+ gameObject.name);
 		Vector2 mousePos = new Vector2(Input.mousePosition.x, Input.mousePosition.y);
-        Vector2 playerPos = Camera.main.ScreenToWorldPoint(mousePos);
-        transform.position = playerPos;
+        //Vector2 playerPos = Camera.main.ScreenToWorldPoint(mousePos);
+        transform.position = mousePos;
 
         if(placeholder.transform.parent != placeholderParent)
         	placeholder.transform.SetParent(placeholderParent);

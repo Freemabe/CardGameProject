@@ -3,7 +3,6 @@ using System.Collections.Generic;
 using UnityEngine;
 
 //https://www.youtube.com/watch?v=aPXvoWVabPY
-[CreateAssetMenu(fileName = "New Card", menuName = "Card")]
 public class Card : ScriptableObject {
 
 	public new string name;
@@ -12,7 +11,11 @@ public class Card : ScriptableObject {
 	public Sprite artwork;
 
 	public int manaCost;
-	public int attack;
-	public int health;
+
+	public CardType cardType;
+	//public int attack;
+	//public int health;
 
 }
+
+public enum CardType { Minion, Spell}

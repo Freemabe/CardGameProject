@@ -5,7 +5,7 @@ using UnityEngine;
 public class EjectWeapon : MonoBehaviour
 {
 	public GameObject parent;
-	public GameObject partpool;
+	public GameObject sibling;
 	int childNumber;
 
 	public void OnClick(){
@@ -14,10 +14,10 @@ public class EjectWeapon : MonoBehaviour
 		{
 			if (!parent.transform.GetChild(i).name.Contains("Eject Weapon"))
 			{
-				parent.transform.GetChild(i).SetParent(partpool.transform, false);
+				parent.transform.GetChild(i).gameObject.SetActive(false);
 				//parent.transform.GetChild(i).position = partpool.transform.position;
 			}
 		}
-		parent.GetComponent<PartFetch>().isEmpty = true;
+		sibling.GetComponent<PartFetch>().isEmpty = true;
 	}
 }

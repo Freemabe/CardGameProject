@@ -1,10 +1,32 @@
+[LONG TERM GOALS]
+Artwork
+Sound effects
+Figure out how multiplyer works 
+
+[SHORT TERM GOALS]
 Dynamic deck list system
 User UI for Decklist creation
 Discard pile functionality
+Save/load system
+spell cards
+pilots
+
+
+
+[IMPROVEMENT]
 Improved Card functionality
-Artwork
-Sound effects
-Turn System
 Add Comments to scripts for readability
-HoverOver to see detail system
->StatSystem for mech
+Visual display for what parts are being target by what weapon
+Improve targetting line functionality
+Improve combat
+Implement all part stats
+Dynamic display panels
+
+
+[Currently working on]
+Need save and load buttons for the deck lists and we good. then on to making the ai actually play against you and adding content.
+
+[Ideas]
+Mana tied to weapons and spell cost [energy] --- more power devoted to weapons less devoted to spells minions
+
+bullrush spell card, target can dodge or overwatch or brace. Dmg based on weight, boost power to weight ratio to both targets

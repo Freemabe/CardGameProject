@@ -23,12 +23,13 @@ public class Dropzone : MonoBehaviour, IDropHandler, IPointerEnterHandler, IPoin
 
 		Draggable d = eventData.pointerDrag.GetComponent<Draggable>();
 		if(d !=null){
+			Debug.Log(d.name);
 			d.placeholderParent = d.parentToReturnTo;
 		}
 	}
 
 	public void OnDrop(PointerEventData eventData){
-		Debug.Log(eventData.pointerDrag.name + "Droped on"+ gameObject.name);
+		//Debug.Log(eventData.pointerDrag.name + "Droped on"+ gameObject.name);
 
 		Draggable d = eventData.pointerDrag.GetComponent<Draggable>();
 		if (d != null){

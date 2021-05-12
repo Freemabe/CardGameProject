@@ -4,7 +4,12 @@ using UnityEngine;
 
 public class BodyStats : MonoBehaviour
 {
-	public Body basePart;
+	public GameObject destroyedPartsPool;
+
+	public Parts basePart;
+
+	public bool isAlive = true;
+
 	public Stat structure;
 	public Stat armor;
 	public Stat armorToughness;
@@ -12,17 +17,20 @@ public class BodyStats : MonoBehaviour
 	public int currentStructure {get; protected set;}
 	public int currentArmor {get; protected set;}
 
+	//set up values that will move
 	public virtual void Start(){
-		armor.baseValue = basePart.armorPoints;
-		armorToughness.baseValue = basePart.armorToughness;
-		structure.baseValue = basePart.structurePoints;
+		Body basePart1 = (Body) basePart;
+		armor.baseValue = basePart1.armorPoints;
+		armorToughness.baseValue = basePart1.armorToughness;
+		structure.baseValue = basePart1.structurePoints;
 		currentArmor = armor.GetValue();
 		currentStructure = structure.GetValue();
 	}
 
 
 
-	public void TakeDamage (int damage){
+	public void TakeDamage (int damage)
+	{
 		if (currentArmor > 0)
 		{
 			damage -= armorToughness.GetValue();
@@ -43,10 +51,22 @@ public class BodyStats : MonoBehaviour
 		//Jet fuel CAN melt these steel beams
 		else
 		{
-			damage -= armorToughness.GetValue();
 			damage = Mathf.Clamp(damage, 0, int.MaxValue);
 
 			currentStructure -= damage;
 		}
-}
+		//after everything is done check if the part is destroyed.
+		if (currentStructure<=0)
+		{
+			Destroy();
+		}
+	}
+
+	public void Destroy()
+	{
+		this.GetComponent<IsTarget>().isTarget = false;
+		this.GetComponent<PartDisplay>().artworkImage.sprite = basePart.destroyedIcon;
+		isAlive = false;
+
+	}
 }

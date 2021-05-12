@@ -8,8 +8,12 @@ public class PartDisplay : MonoBehaviour{
 	public Parts part;
 	public Image artworkImage;
 
-
-	void Start(){
+	void Start()
+	{
+		UpdateInfo();
+	}
+	public void UpdateInfo()
+	{
 		artworkImage.sprite = part.Icon;
 	}
 }

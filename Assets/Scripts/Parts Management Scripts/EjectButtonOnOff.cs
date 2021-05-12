@@ -5,14 +5,14 @@ using UnityEngine.UI;
 
 public class EjectButtonOnOff : MonoBehaviour
 {
-	public GameObject parent;
+	public GameObject sibling;
 
 	bool ejectbool;
 
     // Update is called once per frame
     void Update()
     {
-		ejectbool = parent.GetComponent<PartFetch>().isEmpty;
+		ejectbool = sibling.GetComponent<PartFetch>().isEmpty;
 		if (!ejectbool)
 		{
 			this.GetComponent<Button>().interactable = true;

@@ -8,3 +8,7 @@ Inventory/Equip system for Mech
 Targeting line
 Eject Part mechanics
 Stats for body
+Turn System[basic atm]
+Implement death system for mech parts[basic]
+panels for the garage part display
+HoverOver to see detail system

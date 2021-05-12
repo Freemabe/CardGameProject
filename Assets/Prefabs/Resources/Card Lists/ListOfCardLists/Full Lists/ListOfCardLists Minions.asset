@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c414083fa7396e04999cd8b033e058cd, type: 3}
+  m_Name: ListOfCardLists Minions
+  m_EditorClassIdentifier: 
+  listOfCardLists:
+  - {fileID: 11400000, guid: f390ca9069bdf04419af9750aca3b5a9, type: 2}
+  - {fileID: 11400000, guid: cfb7aa0e8d7cfb74891160cd31fd9c60, type: 2}
+  - {fileID: 11400000, guid: 486371c429885f2479a76667f6b0f866, type: 2}
+  - {fileID: 11400000, guid: 4af113cfdcd24af4c834567d559f0a0b, type: 2}
+  counter: 0
+  subcounter: 10

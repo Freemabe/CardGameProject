@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 0
+    path: 
+    guid: 00000000000000000000000000000000
+  - enabled: 1
+    path: Assets/Scenes/Menu_scene.unity
+    guid: e46d5cba07151ad40af2d93368ed576e
+  - enabled: 1
+    path: Assets/Scenes/Test_scene.unity
+    guid: 8928cfaf0769c4d45a95ab4fd28d066d
+  - enabled: 1
+    path: Assets/Scenes/Garage_scene.unity
+    guid: d283de44e83c3bc4eb7eaba2d8492e7b
+  - enabled: 1
+    path: Assets/Scenes/Deckbox_scene.unity
+    guid: 0ff2f02faa123314a89645c087bd0851
+  m_configObjects: {}

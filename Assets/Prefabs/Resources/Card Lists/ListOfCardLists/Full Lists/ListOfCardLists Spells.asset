@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c414083fa7396e04999cd8b033e058cd, type: 3}
+  m_Name: ListOfCardLists Spells
+  m_EditorClassIdentifier: 
+  listOfCardLists:
+  - {fileID: 11400000, guid: c7bc56f3a83b8c24798912d6b61fc430, type: 2}
+  - {fileID: 11400000, guid: 8f31779f953d9f342b1aca678d1ce498, type: 2}
+  - {fileID: 11400000, guid: 02fa2c569d28b554f9a46ddbc73f0e45, type: 2}
+  - {fileID: 11400000, guid: bdd408bb9970a9c459d8cb6144e0039b, type: 2}
+  counter: 3
+  subcounter: 11

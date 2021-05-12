@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 863ec59a9b0733741a3acbd0d609ddb2, type: 3}
+  m_Name: E_Mech_Inventory1
+  m_EditorClassIdentifier: 
+  Booster: {fileID: 11400000, guid: aa4ff99037eaa014a8c7d1c8f874412c, type: 2}
+  Engine: {fileID: 11400000, guid: 361cad99a0c24324888f5565e0eb907e, type: 2}
+  Generator: {fileID: 11400000, guid: d34790bfebbcd54449d6c74189dd8d20, type: 2}
+  Head: {fileID: 11400000, guid: 7e02844ac131ee54d8bc240bcfa44dec, type: 2}
+  LeftArm: {fileID: 11400000, guid: eb6f4426f5ae5404081d55fd77cc411a, type: 2}
+  HandWeaponLeft: {fileID: 11400000, guid: f01c13b1440385a4c9e004ec6987849c, type: 2}
+  LeftLeg: {fileID: 11400000, guid: 9561dcc6b83ccc540b002c3331601b61, type: 2}
+  ShoulderWeaponLeft: {fileID: 11400000, guid: 0202d94f0e4c3c14cb03d3f96f2fb425, type: 2}
+  RightArm: {fileID: 11400000, guid: 3f1f847f9a31b01478c65c3d213b1c00, type: 2}
+  HandWeaponRight: {fileID: 11400000, guid: 7035c65292b20c741ad46c402d93e162, type: 2}
+  RightLeg: {fileID: 11400000, guid: 0218c12a98a62494f9fff6ab9d0e34bc, type: 2}
+  ShoulderWeaponRight: {fileID: 11400000, guid: 8bc8fa421ed84e043869a7c6537e55f1, type: 2}
+  Torso: {fileID: 11400000, guid: ac41b3dd6f8e965429bffd00bd550fbf, type: 2}

@@ -37,6 +37,7 @@ public class Partslist : MonoBehaviour
 				placeholder.transform.SetParent(this.transform, false);
 				partlist.Add(placeholder);
 				placeholder.name = part.name;
+				placeholder.GetComponent<WeaponStats>().weaponPart = (Weapons)part;
 			}
 			else if (part.partSlot.ToString() == "Torso")
 	    	{

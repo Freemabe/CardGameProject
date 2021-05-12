@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e64846af1e7afc240ad6162170c581f9, type: 3}
+  m_Name: New Minion 25
+  m_EditorClassIdentifier: 
+  name: 
+  description: 25
+  artwork: {fileID: 0}
+  manaCost: 0
+  cardType: 0
+  damage: 0
+  fireRate: 0
+  ammoMax: 0
+  armor: 0
+  structure: 0
+  armorToughness: 0

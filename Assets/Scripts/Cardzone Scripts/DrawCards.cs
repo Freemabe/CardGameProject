@@ -9,18 +9,12 @@ public class DrawCards : MonoBehaviour
 	public GameObject deck;
 
 	public GameObject Player_hand_object;
-	public GameObject Enemy_hand_object;
 
 
-    public void OnClick()
+    public void DrawCard()
     {
-    	
-	    	Transform playerCard = deck.transform.GetChild(Random.Range(0,deck.transform.childCount));
-	    	playerCard.transform.SetParent(Player_hand_object.transform, false);
-
-	    	Transform enemyCard = deck.transform.GetChild(Random.Range(0,deck.transform.childCount));
-	    	enemyCard.transform.SetParent(Enemy_hand_object.transform, false);
-    		Debug.Log("I was clicked");
+    	Transform playerCard = deck.transform.GetChild(Random.Range(0,deck.transform.childCount));
+    	playerCard.transform.SetParent(Player_hand_object.transform, false);
     }
 
 }

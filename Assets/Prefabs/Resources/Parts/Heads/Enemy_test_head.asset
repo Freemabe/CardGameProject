@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a9e1c266ba7a3fb44b2ab0d7c8617728, type: 3}
+  m_Name: Enemy_test_head
+  m_EditorClassIdentifier: 
+  name: Enemy Head
+  Icon: {fileID: 21300000, guid: af6c62d5fb0735e448f46f797f3667e7, type: 3}
+  destroyedIcon: {fileID: 21300000, guid: 6df3fe26f5fb3a9448e0ecfca54c6075, type: 3}
+  weight: 150
+  partSlot: 0
+  description: delete later
+  structurePoints: 100
+  armorPoints: 100
+  armorToughness: 5
+  sensorAbility: 10
+  ecmCounter: 7
+  coordination: 1
